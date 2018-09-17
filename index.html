@@ -1,0 +1,365 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    
+	<title>Bootstrap</title>
+  </head>
+  <body>
+    
+    <div class="navbar navbar-expand-sm navbar-light bg-light">
+		<div class="container">
+            	
+		 <!-- Brand-->	
+		
+			<a class="navbar-brand" mb-0 h1">
+				<i class="fab fa-instagram"></i>
+				Instagram
+			</a>
+				
+            <div class="collapse navbar-collapse navHeaderCollapse">  
+			
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+						
+                            <!-- Button trigger modal -->
+							<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+							  Create a new post
+							</button>
+
+							<!-- Modal -->
+							<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							  <div class="modal-dialog" role="document">
+								<div class="modal-content">
+								
+								  <div class="modal-header">
+								  	<h5 class="modal-title" id="exampleModalLabel"></h5>
+								  </div>
+								  
+								  <div class="modal-body">
+									<textarea rows="2" cols="50">
+									</textarea>
+									<i class="fas fa-camera-retro" href="#"></i>
+									<i class="fas fa-map-marker-alt"></i>
+								  </div>
+								  
+								  <div class="modal-footer">
+									
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+									<button type="button" class="btn btn-primary">Publish</button>
+								  </div>
+								  
+								</div>
+							  </div>
+							</div>
+                        </li>
+						<!-- Drilldown -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+							     <i class="fas fa-cog"></i>
+								
+                            </a> 
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+								<div class="dropdown-divider"></div>
+								<a class="dropdown-item" href="#">Logout</a>
+                            </div>
+                        </li>
+					</ul>
+			 
+			</div> 
+         </div>      
+            
+    </div>
+	
+	<!-- NAV pills-Toggle buttons  -->
+	
+	<nav>
+		<div class="nav nav-tabs" id="nav-tab" role="tablist">
+			<a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Matrix</a>
+			<a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Column</a>
+		<div>
+	</nav>
+	
+	<div class="tab-content" id="nav-tabContent">
+	<!-- Button 1 -->
+	  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+	
+	<!-- Cards 1 row -->
+	<div class="container">
+		<div class="card-deck">
+	
+		  <div class="card">
+			
+			<div class="card-body">
+			  <h5 class="card-title">My First photo</h5>
+			  <img class="card-img-top" src="http://lorempixel.com/400/200" alt="Card image cap">
+			  <p class="card-text">This is my first photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+			  <p class="card-text">23 likes</p>
+			</div>
+		  </div>
+		  
+		  <div class="card">
+			
+			<div class="card-body">
+			  <h5 class="card-title">My First photo</h5>
+			  <img class="card-img-top" src="http://lorempixel.com/400/200" alt="Card image cap">
+			  <p class="card-text">This is my first photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+			  <p class="card-text">23 likes</p>
+			</div>
+		  </div>
+		  
+		  <div class="card">
+			
+			<div class="card-body">
+			  <h5 class="card-title">My First photo</h5>
+			  <img class="card-img-top" src="http://lorempixel.com/400/200" alt="Card image cap">
+			  <p class="card-text">This is my first photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+			  <p class="card-text">23 likes</p>
+			</div>
+		  </div>
+		</div>
+
+	</div>
+	
+	<!-- Cards 2 row -->
+	<div class="container">
+		<div class="card-deck">
+	
+		  <div class="card">
+			
+			<div class="card-body">
+			  <h5 class="card-title">My First photo</h5>
+			  <img class="card-img-top" src="http://lorempixel.com/400/200" alt="Card image cap">
+			  <p class="card-text">This is my first photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+			  <p class="card-text">23 likes</p>
+			</div>
+		  </div>
+		  
+		  <div class="card">
+			
+			<div class="card-body">
+			  <h5 class="card-title">My First photo</h5>
+			  <img class="card-img-top" src="http://lorempixel.com/400/200" alt="Card image cap">
+			  <p class="card-text">This is my first photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+			  <p class="card-text">23 likes</p>
+			</div>
+		  </div>
+		  
+		  <div class="card">
+			
+			<div class="card-body">
+			  <h5 class="card-title">My First video</h5>
+			  <img class="card-img-top" src="http://lorempixel.com/400/200" alt="Card image cap">
+			  <p class="card-text">This is my first photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+			  <p class="card-text">23 likes</p>
+			</div>
+		  </div>
+		</div>
+
+	</div>
+	
+	<!-- Cards 3 row -->
+	<div class="container">
+		<div class="card-deck">
+	
+		  <div class="card">
+			
+			<div class="card-body">
+			  <h5 class="card-title">My First photo</h5>
+			  <img class="card-img-top" src="http://lorempixel.com/400/200" alt="Card image cap">
+			  <p class="card-text">This is my first photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+			  <p class="card-text">23 likes</p>
+			</div>
+		  </div>
+		  
+		  <div class="card">
+			
+			<div class="card-body">
+			  <h5 class="card-title">My First photo</h5>
+			  <img class="card-img-top" src="http://lorempixel.com/400/200" alt="Card image cap">
+			  <p class="card-text">This is my first photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+			  <p class="card-text">23 likes</p>
+			</div>
+		  </div>
+		  
+		  <div class="card">
+			
+			<div class="card-body">
+			  <h5 class="card-title">My First photo</h5>
+			  <img class="card-img-top" src="http://lorempixel.com/400/200" alt="Card image cap">
+			  <p class="card-text">This is my first photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+			  <p class="card-text">23 likes</p>
+			</div>
+		  </div>
+		</div>
+
+	</div> 
+	
+	</div>
+		<!-- Tab 2 -->
+	  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+	  		<div class="container">
+			<div class="post"> 
+				<div class="post-header">
+					<div>
+						<h2>First Photo</h2>
+					</div><div>
+						<span>12/14</span>
+					</div>
+				</div>
+				<div>	
+					<img src="http://lorempixel.com/400/200"> </img>
+				</div>
+				<div>
+					<p> This is my first photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+				</div>
+			</div>
+			
+			<div class="post"> 
+				<div class="post-header">
+					<div>
+						<h2>First Photo</h2>
+					</div><div>
+						<span>12/17</span>
+					</div>
+				</div>
+				<div>	
+					<img src="http://lorempixel.com/400/200"> </img>
+				</div>
+				<div>
+					<p> This is my second photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+				</div>
+			</div>
+			
+			<div class="post"> 
+				<div class="post-header">
+					<div>
+						<h2>First Photo</h2>
+					</div><div>
+						<span>12/19</span>
+					</div>
+				</div>
+				<div>	
+					<img src="http://lorempixel.com/400/200"> </img>
+				</div>
+				<div>
+					<p> This is my third with <strong>#BreathCode</strong></p>
+				</div>
+			</div>
+			
+			<div class="post"> 
+				<div class="post-header">
+					<div>
+						<h2>First Photo</h2>
+					</div><div>
+						<span>12/20</span>
+					</div>
+				</div>
+				<div>	
+					<img src="http://lorempixel.com/400/200"> </img>
+				</div>
+				<div>
+					<p> This is my fourth photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+				</div>
+			</div>
+			<div class="post"> 
+				<div class="post-header">
+					<div>
+						<h2>First Photo</h2>
+					</div><div>
+						<span>12/20</span>
+					</div>
+				</div>
+				<div>	
+					<img src="http://lorempixel.com/400/200"> </img>
+				</div>
+				<div>
+					<p> This is my fourth photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+				</div>
+			</div>
+						<div class="post"> 
+				<div class="post-header">
+					<div>
+						<h2>First video</h2>
+					</div><div>
+						<span>12/20</span>
+					</div>
+				</div>
+				<div>	
+					<img src="http://lorempixel.com/400/200"> </img>
+				</div>
+				<div>
+					<p> This is my fourth photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+				</div>
+			</div>
+			<div class="post"> 
+				<div class="post-header">
+					<div>
+						<h2>First</h2>
+					</div><div>
+						<span>12/14</span>
+					</div>
+				</div>
+				<div>	
+					<img src="http://lorempixel.com/400/200"> </img>
+				</div>
+				<div>
+					<p> This is my first photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+				</div>
+			</div>
+			
+			<div class="post"> 
+				<div class="post-header">
+					<div>
+						<h2>First Photo</h2>
+					</div><div>
+						<span>12/17</span>
+					</div>
+				</div>
+				<div>	
+					<img src="http://lorempixel.com/400/200"> </img>
+				</div>
+				<div>
+					<p> This is my second photo of the feed. This is a multy line comment for testing purposes. I am learning to code with <strong>#BreathCode</strong></p>
+				</div>
+			</div>
+			
+			<div class="post"> 
+				<div class="post-header">
+					<div>
+						<h2>First Photo</h2>
+					</div><div>
+						<span>12/19</span>
+					</div>
+				</div>
+				<div>	
+					<img src="http://lorempixel.com/400/200"> </img>
+				</div>
+				<div>
+					<p> This is my third with <strong>#BreathCode</strong></p>
+				</div>
+			</div>
+	  </div>
+	  
+	</div>
+	
+	
+	
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
